@@ -1,0 +1,100 @@
+          /* Start of CSS */ 
+          * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+          }
+          
+          .container {
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+            color: white;
+          }
+          
+          #time {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            text-align: left;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 18px;
+          }
+          
+          h1 {
+            margin-top: 16rem;
+            margin-bottom: 3rem;
+            font-size: 20px;
+
+          }
+
+          
+          h2 {
+            margin-bottom: 0.5rem;
+            /*opacity: 0.6;*/
+            color: black;
+            font-size: 22px;
+        
+          }
+          
+          @media (max-width: 700px) {
+            #time {
+              font-size: 18px;
+            }
+          }
+          .button_cont{
+            position: absolute;
+            right:    0;
+            bottom:   0;
+            margin-right: 8px;
+            margin-bottom: 8px;
+          }
+          /*todo list button*/
+          .button{
+            color: white;
+            font-size: 11px;
+            width: 70px;
+            height: 35px;
+            font-weight: 600;
+            border-width: 0;
+            border-radius: 8px;
+            text-align: center;
+            padding: 3px;
+            margin-left: 4px;
+          }
+          .button_cont2{
+            position: absolute;
+            left:    0;
+            bottom:   0;
+            margin-right: 8px;
+            margin-bottom: 8px;
+          }
+          .button_cont3{
+            position: absolute;
+            left:    40%;
+            bottom:   0;
+            margin-right: 14px;
+            margin-bottom: 8px;
+          }
+
+
+        /* alarm button */
+
+        .button_cont4{
+            position: absolute;
+            left:   0 ;
+             top:   0;
+            margin-right: 14px;
+            margin-bottom: 8px;
+          }
+          #Canvas{
+   
+            background-color: rgb(77, 77,77);
+            border-radius: 100%;
+        }
